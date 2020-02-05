@@ -1,0 +1,61 @@
+# Perforce File Type Mapping Specifications.
+#
+#  TypeMap:     a list of filetype mappings; one per line.
+#               Each line has two elements:
+#
+#               Filetype: The filetype to use on 'p4 add'.
+#
+#               Path:     File pattern which will use this filetype.
+#
+# See 'p4 help typemap' for more information.
+
+TypeMap:
+        text //depot/....js
+        text //depot/....cs
+        text //depot/...shader
+        text //depot/....meta
+        text+l //depot/....cm
+        text+l //depot/....proc
+        text+l //depot/....md5mesh
+        text+l //depot/....md5anim
+        text+l //depot/....ma
+        binary+S2w //depot/....dll
+        binary+S2w //depot/....exe
+        binary+S2w //depot/....response
+        binary+S2w //depot/....lib
+        binary+S2w //depot/....pdb
+        binary+S2w //depot/....u
+        binary+S2w //depot/....ini
+        binary+S2w //depot/....stub
+        binary+S2w //depot/....ip
+        binary+l //depot/....prefab
+        binary+l //depot/....mb
+        binary+l //depot/....mat
+        binary+l //depot/....psb
+        binary+l //depot/....mp3
+        binary+l //depot/....fbx
+        binary+l //depot/....unity
+        binary+l //depot/....asset
+        binary+l //depot/....aas
+        binary+l //depot/....tga
+        binary+l //depot/....jpg
+        binary+l //depot/....lwo
+        binary+l //depot/....wav
+        binary+l //depot/....ogg
+        binary+l //depot/....demo
+        binary+l //depot/....roq
+        binary+l //depot/....doc
+        binary+l //depot/....xls
+        binary+l //depot/....celtx
+        binary+l //depot/....pdf
+        binary+l //depot/....odt
+        binary+l //depot/....ods
+        binary+l //depot/....ppt
+        binary+l //depot/....skp
+        binary+lS //depot/....dds
+        binary+lS //depot/....bnk
+        binary+lS //depot/....light
+        binary+lS //depot/....shadow
+        binary+lS //depot/....ibl
+        binary+lS //depot/....bik
+        binary+lS //depot/....upk
