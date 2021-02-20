@@ -12,7 +12,7 @@
 TypeMap:
         text //depot/....js
         text //depot/....cs
-        text //depot/...shader
+        text //depot/....shader
         text //depot/....meta
         text+l //depot/....cm
         text+l //depot/....proc
