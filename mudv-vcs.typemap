@@ -1,0 +1,240 @@
+# Perforce File Type Mapping Specifications.
+#
+#  TypeMap:	a list of filetype mappings; one per line.
+#		Each line has two elements:
+#
+#  		Filetype: The filetype to use on 'p4 add'.
+#
+#  		Path:     File pattern which will use this filetype.
+#
+# See 'p4 help typemap' for more information.
+
+TypeMap:
+	text //FDV*/....js
+	text //FDV*/....cs
+	text //FDV*/....shader
+	text //FDV*/....meta
+	text+l //FDV*/....cm
+	text+l //FDV*/....proc
+	text+l //FDV*/....md5mesh
+	text+l //FDV*/....md5anim
+	text+l //FDV*/....ma
+	binary+S2w //FDV*/....dll
+	binary+S2w //FDV*/....exe
+	binary+S2w //FDV*/....response
+	binary+S2w //FDV*/....lib
+	binary+S2w //FDV*/....pdb
+	binary+S2w //FDV*/....u
+	binary+S2w //FDV*/....ini
+	binary+S2w //FDV*/....stub
+	binary+S2w //FDV*/....ip
+	binary+l //FDV*/....prefab
+	binary+l //FDV*/....mb
+	binary+l //FDV*/....mat
+	binary+l //FDV*/....psb
+	binary+l //FDV*/....mp3
+	binary+l //FDV*/....fbx
+	binary+l //FDV*/....unity
+	binary+l //FDV*/....asset
+	binary+l //FDV*/....aas
+	binary+l //FDV*/....tga
+	binary+l //FDV*/....jpg
+	binary+l //FDV*/....lwo
+	binary+l //FDV*/....wav
+	binary+l //FDV*/....ogg
+	binary+l //FDV*/....demo
+	binary+l //FDV*/....roq
+	binary+l //FDV*/....doc
+	binary+l //FDV*/....xls
+	binary+l //FDV*/....celtx
+	binary+l //FDV*/....pdf
+	binary+l //FDV*/....odt
+	binary+l //FDV*/....ods
+	binary+l //FDV*/....ppt
+	binary+l //FDV*/....skp
+	binary+lS //FDV*/....dds
+	binary+lS //FDV*/....bnk
+	binary+lS //FDV*/....light
+	binary+lS //FDV*/....shadow
+	binary+lS //FDV*/....ibl
+	binary+lS //FDV*/....bik
+	binary+lS //FDV*/....upk
+	binary+S2w //D3D*/....exe
+	binary+S2w //D3D*/....dll
+	binary+S2w //D3D*/....lib
+	binary+S2w //D3D*/....app
+	binary+S2w //D3D*/....dylib
+	binary+S2w //D3D*/....stub
+	binary+S2w //D3D*/....ipa
+	binary //D3D*/....bmp
+	binary //D3D*/....png
+	binary //D3D*/....tga
+	binary //D3D*/....raw
+	binary //D3D*/....r16
+	binary //D3D*/....mb
+	binary //D3D*/....fbx
+	text //D3D*/....ini
+	text //D3D*/....config
+	text //D3D*/....cpp
+	text //D3D*/....h
+	text //D3D*/....c
+	text //D3D*/....cs
+	text //D3D*/....m
+	text //D3D*/....mm
+	text //D3D*/....py
+	binary+l //D3D*/....uasset
+	binary+l //D3D*/....umap
+	binary+l //D3D*/....upk
+	binary+l //D3D*/....udk
+	text //D3D1920/....js
+	text //D3D1920/....cs
+	text //D3D1920/....shader
+	text //D3D1920/....meta
+	text+l //D3D1920/....cm
+	text+l //D3D1920/....proc
+	text+l //D3D1920/....md5mesh
+	text+l //D3D1920/....md5anim
+	text+l //D3D1920/....ma
+	binary+S2w //D3D1920/....dll
+	binary+S2w //D3D1920/....exe
+	binary+S2w //D3D1920/....response
+	binary+S2w //D3D1920/....lib
+	binary+S2w //D3D1920/....pdb
+	binary+S2w //D3D1920/....u
+	binary+S2w //D3D1920/....ini
+	binary+S2w //D3D1920/....stub
+	binary+S2w //D3D1920/....ip
+	binary+l //D3D1920/....prefab
+	binary+l //D3D1920/....mb
+	binary+l //D3D1920/....mat
+	binary+l //D3D1920/....psb
+	binary+l //D3D1920/....mp3
+	binary+l //D3D1920/....fbx
+	binary+l //D3D1920/....unity
+	binary+l //D3D1920/....asset
+	binary+l //D3D1920/....aas
+	binary+l //D3D1920/....tga
+	binary+l //D3D1920/....jpg
+	binary+l //D3D1920/....lwo
+	binary+l //D3D1920/....wav
+	binary+l //D3D1920/....ogg
+	binary+l //D3D1920/....demo
+	binary+l //D3D1920/....roq
+	binary+l //D3D1920/....doc
+	binary+l //D3D1920/....xls
+	binary+l //D3D1920/....celtx
+	binary+l //D3D1920/....pdf
+	binary+l //D3D1920/....odt
+	binary+l //D3D1920/....ods
+	binary+l //D3D1920/....ppt
+	binary+l //D3D1920/....skp
+	binary+lS //D3D1920/....dds
+	binary+lS //D3D1920/....bnk
+	binary+lS //D3D1920/....light
+	binary+lS //D3D1920/....shadow
+	binary+lS //D3D1920/....ibl
+	binary+lS //D3D1920/....bik
+	binary+lS //D3D1920/....upk
+	binary+S2w //MSDV*/....exe
+	binary+S2w //MSDV*/....dll
+	binary+S2w //MSDV*/....lib
+	binary+S2w //MSDV*/....app
+	binary+S2w //MSDV*/....dylib
+	binary+S2w //MSDV*/....stub
+	binary+S2w //MSDV*/....ipa
+	binary //MSDV*/....bmp
+	binary //MSDV*/....png
+	binary //MSDV*/....tga
+	binary //MSDV*/....raw
+	binary //MSDV*/....r16
+	binary //MSDV*/....mb
+	binary //MSDV*/....fbx
+	text //MSDV*/....ini
+	text //MSDV*/....config
+	text //MSDV*/....cpp
+	text //MSDV*/....h
+	text //MSDV*/....c
+	text //MSDV*/....cs
+	text //MSDV*/....m
+	text //MSDV*/....mm
+	text //MSDV*/....py
+	binary+l //MSDV*/....uasset
+	binary+l //MSDV*/....umap
+	binary+l //MSDV*/....upk
+	binary+l //MSDV*/....udk
+	binary+S2w "//.../Unreal Projects/....exe"
+	binary+S2w "//.../Unreal Projects/....dll"
+	binary+S2w "//.../Unreal Projects/....lib"
+	binary+S2w "//.../Unreal Projects/....app"
+	binary+S2w "//.../Unreal Projects/....dylib"
+	binary+S2w "//.../Unreal Projects/....stub"
+	binary+S2w "//.../Unreal Projects/....ipa"
+	binary "//.../Unreal Projects/....bmp"
+	binary "//.../Unreal Projects/....png"
+	binary "//.../Unreal Projects/....tga"
+	binary "//.../Unreal Projects/....raw"
+	binary "//.../Unreal Projects/....r16"
+	binary "//.../Unreal Projects/....mb"
+	binary "//.../Unreal Projects/....fbx"
+	text "//.../Unreal Projects/....ini"
+	text "//.../Unreal Projects/....config"
+	text "//.../Unreal Projects/....cpp"
+	text "//.../Unreal Projects/....h"
+	text "//.../Unreal Projects/....c"
+	text "//.../Unreal Projects/....cs"
+	text "//.../Unreal Projects/....m"
+	text "//.../Unreal Projects/....mm"
+	text "//.../Unreal Projects/....py"
+	binary+l "//.../Unreal Projects/....uasset"
+	binary+l "//.../Unreal Projects/....umap"
+	binary+l "//.../Unreal Projects/....upk"
+	binary+l "//.../Unreal Projects/....udk"
+	text "//.../Unity Projects/....js"
+	text "//.../Unity Projects/....cs"
+	text "//.../Unity Projects/....shader"
+	text "//.../Unity Projects/....meta"
+	text+l "//.../Unity Projects/....cm"
+	text+l "//.../Unity Projects/....proc"
+	text+l "//.../Unity Projects/....md5mesh"
+	text+l "//.../Unity Projects/....md5anim"
+	text+l "//.../Unity Projects/....ma"
+	binary+S2w "//.../Unity Projects/....dll"
+	binary+S2w "//.../Unity Projects/....exe"
+	binary+S2w "//.../Unity Projects/....response"
+	binary+S2w "//.../Unity Projects/....lib"
+	binary+S2w "//.../Unity Projects/....pdb"
+	binary+S2w "//.../Unity Projects/....u"
+	binary+S2w "//.../Unity Projects/....ini"
+	binary+S2w "//.../Unity Projects/....stub"
+	binary+S2w "//.../Unity Projects/....ip"
+	binary+l "//.../Unity Projects/....prefab"
+	binary+l "//.../Unity Projects/....mb"
+	binary+l "//.../Unity Projects/....mat"
+	binary+l "//.../Unity Projects/....psb"
+	binary+l "//.../Unity Projects/....mp3"
+	binary+l "//.../Unity Projects/....fbx"
+	binary+l "//.../Unity Projects/....unity"
+	binary+l "//.../Unity Projects/....asset"
+	binary+l "//.../Unity Projects/....aas"
+	binary+l "//.../Unity Projects/....tga"
+	binary+l "//.../Unity Projects/....jpg"
+	binary+l "//.../Unity Projects/....lwo"
+	binary+l "//.../Unity Projects/....wav"
+	binary+l "//.../Unity Projects/....ogg"
+	binary+l "//.../Unity Projects/....demo"
+	binary+l "//.../Unity Projects/....roq"
+	binary+l "//.../Unity Projects/....doc"
+	binary+l "//.../Unity Projects/....xls"
+	binary+l "//.../Unity Projects/....celtx"
+	binary+l "//.../Unity Projects/....pdf"
+	binary+l "//.../Unity Projects/....odt"
+	binary+l "//.../Unity Projects/....ods"
+	binary+l "//.../Unity Projects/....ppt"
+	binary+l "//.../Unity Projects/....skp"
+	binary+lS "//.../Unity Projects/....dds"
+	binary+lS "//.../Unity Projects/....bnk"
+	binary+lS "//.../Unity Projects/....light"
+	binary+lS "//.../Unity Projects/....shadow"
+	binary+lS "//.../Unity Projects/....ibl"
+	binary+lS "//.../Unity Projects/....bik"
+	binary+lS "//.../Unity Projects/....upk"
